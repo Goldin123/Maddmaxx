@@ -1,5 +1,6 @@
 using Grpc.Core;
 using Maddmaxx.Service;
+using Shared;
 
 namespace Maddmaxx.Service.Services
 {
