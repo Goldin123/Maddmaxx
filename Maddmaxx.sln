@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maddmaxx.Service", "Maddmax
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maddmaxx.Shared", "Maddmaxx.Shared\Maddmaxx.Shared.csproj", "{DB847C1C-9726-4659-A64F-0A11EDFAE284}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maddmaxx.Domain", "Maddmaxx.Domain\Maddmaxx.Domain.csproj", "{7DCE8B74-C298-4111-B58E-BD1EAAB159ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maddmaxx.Application", "Maddmaxx.Application\Maddmaxx.Application.csproj", "{F14DC107-8FD6-4964-B33A-F2661B076E74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maddmaxx.Infrastructure", "Maddmaxx.Infrastructure\Maddmaxx.Infrastructure.csproj", "{878D4411-FED6-4E80-ADA6-2E0A92D08E78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maddmaxx.Tests", "Maddmaxx.Tests\Maddmaxx.Tests.csproj", "{7E1E67A0-796D-4FCD-9547-7C8259CDF0D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +29,22 @@ Global
 		{DB847C1C-9726-4659-A64F-0A11EDFAE284}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB847C1C-9726-4659-A64F-0A11EDFAE284}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB847C1C-9726-4659-A64F-0A11EDFAE284}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DCE8B74-C298-4111-B58E-BD1EAAB159ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DCE8B74-C298-4111-B58E-BD1EAAB159ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DCE8B74-C298-4111-B58E-BD1EAAB159ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DCE8B74-C298-4111-B58E-BD1EAAB159ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F14DC107-8FD6-4964-B33A-F2661B076E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14DC107-8FD6-4964-B33A-F2661B076E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14DC107-8FD6-4964-B33A-F2661B076E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14DC107-8FD6-4964-B33A-F2661B076E74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{878D4411-FED6-4E80-ADA6-2E0A92D08E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{878D4411-FED6-4E80-ADA6-2E0A92D08E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{878D4411-FED6-4E80-ADA6-2E0A92D08E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{878D4411-FED6-4E80-ADA6-2E0A92D08E78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E1E67A0-796D-4FCD-9547-7C8259CDF0D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E1E67A0-796D-4FCD-9547-7C8259CDF0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E1E67A0-796D-4FCD-9547-7C8259CDF0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E1E67A0-796D-4FCD-9547-7C8259CDF0D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
