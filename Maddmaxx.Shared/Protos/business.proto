@@ -22,6 +22,7 @@ message BusinessInfoRequest {
   string address3 = 10;
   string city = 11;
   string country = 12;
+  string application_id = 13;
 }
 
 // The response message confirming the capture.
